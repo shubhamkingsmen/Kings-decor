@@ -29,5 +29,10 @@ export default defineConfig({
       }
     }
   },
-  chunkSizeWarningLimit: 1000 // Set the limit to 1 MB (1000 KB)
+  resolve: {
+    alias: {
+      '~slick-carousel': '/node_modules/slick-carousel'
+    }
+  },
+  chunkSizeWarningLimit: 1000 , // Set the limit to 1 MB (1000 KB),
 });
