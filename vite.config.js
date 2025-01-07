@@ -18,4 +18,16 @@ export default defineConfig({
       '@mui/styled-engine': '@mui/styled-engine',
     },
   },
+  rollupOptions: {
+    output: {
+      manualChunks(id) {
+        // Group vendor libraries (e.g., node_modules) into a separate chunk
+        if (id.includes('node_modules')) {
+          return 'vendor';  // All node_modules will be bundled into 'vendor.js'
+        }
+        // You can add more logic here for additional chunk splitting
+      }
+    }
+  },
+  chunkSizeWarningLimit: 1000 // Set the limit to 1 MB (1000 KB)
 });
