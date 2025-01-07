@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { TextField, MenuItem } from "@mui/material";
-import Straightshape from "../../../../../../src/assets/Images/staright.jpg";
+import Straightshape from "../../../../../../src/assets/images/staright.jpg";
 
 function StraightPage2() {
   const [cornerSize, setCornerSize] = useState("");

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { TextField, MenuItem } from "@mui/material";
-import Ushape from "../../../../../../src/assets/Images/u-shape-modular-kitchen.jpg";
+import Ushape from "../../../../../../src/assets/images/u-shape-modular-kitchen.jpg";
 
 function UshapedPage2() {
   const [selectedLayout, setSelectedLayout] = useState("");

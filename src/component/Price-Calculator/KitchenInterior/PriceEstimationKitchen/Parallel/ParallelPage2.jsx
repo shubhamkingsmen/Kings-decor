@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { TextField, MenuItem } from "@mui/material";
-import Parallelshape from "../../../../../../src/assets/Images/parallel.jpg";
+import Parallelshape from "../../../../../../src/assets/images/parallel.jpg";
 
 function ParallelshapedPage2() {
   const [selectedLayout, setSelectedLayout] = useState("");

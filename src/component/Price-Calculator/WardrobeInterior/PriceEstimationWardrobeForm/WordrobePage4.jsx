@@ -33,7 +33,7 @@ const PackageSelector = () => {
       name: "MDF",
       price: "₹",
       description:"MDF has a very smooth surface that makes it excellent for painting and veneering with a flat and even finish.It is highly versatile, used in a wide variety of cabinetry, furniture, and interior finishes. Additionally, it is also an economical option, making it a more affordable choice when quality and budget need to be balanced.",
-      image: "/src/assets/Images/1bhk.jpg",
+      image: "/src/assets/images/1bhk.jpg",
       features: ["Smooth Surface","Versatile Applications","Cost-effective"],
     },
     {
@@ -42,7 +42,7 @@ const PackageSelector = () => {
       price: "₹₹",
       description:
         "HDF is very dense and durable, making it suitable for heavy-duty applications such as flooring and cabinetry. HDF is highly resistant to moisture, which prevents swelling and warping in wet environments.This makes HDF a better choice for projects requiring long-lasting strength and resilience.",
-      image: "/src/assets/Images/2bhk.jpg",
+      image: "/src/assets/images/2bhk.jpg",
      features: ["Dense and Durable","Resistant to Moisture","Heavy-duty"],
      
     },
