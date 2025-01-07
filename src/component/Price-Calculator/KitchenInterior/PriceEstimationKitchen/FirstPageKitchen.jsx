@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import Lshape from "../../../../../src/assets/Images/l-shape.jpg";
-import Ushape from "../../../../../src/assets/Images/u-shape-modular-kitchen.jpg";
-import Straight from "../../../../../src/assets/Images/staright.jpg";
-import Parallel from "../../../../../src/assets/Images/parallel.jpg";
+import Lshape from "../../../../../src/assets/images/l-shape.jpg";
+import Ushape from "../../../../../src/assets/images/u-shape-modular-kitchen.jpg";
+import Straight from "../../../../../src/assets/images/staright.jpg";
+import Parallel from "../../../../../src/assets/images/parallel.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { clipping } from "three/src/nodes/accessors/ClippingNode.js";
